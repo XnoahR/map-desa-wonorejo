@@ -1,13 +1,21 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 // import  Image  from "next/image";
+
 import Butt from "../components/Butt";
+import Dropdown from "@/components/Dropdown";
+import data from "@/components/data";
+import Search from "@/components/Search";
+
 
 import Logo from "@public/Logo.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  let altitude;
+  //Check Query params
+  
   return (
     <>
       <div className="flex flex-col items-center h-screen">
@@ -16,7 +24,7 @@ export default function Home() {
             {" "}
             Selamat Datang{" "}
           </h1>
-          <div className="flex  h-3/5 space-x-2  w-4/5 sm:justify-center md:w-1/4 mt-4  border border-red-500">
+          <div className="flex  h-3/5 space-x-2  w-4/5 sm:justify-center md:w-1/4 mt-4">
             <div className="h-full w-20">
               <Image src={Logo} alt="logo" className="w-full h-full" />
             </div>
@@ -35,8 +43,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center w-full h-3/4">
           <Butt />  
-          <Butt />
-          
+          <Dropdown name="Pilih Dusun" data={data.dusun} />
+          <Dropdown name="Pilih RW" data={data.RW} />
+          <Dropdown name="Pilih RT" data={data.RT} />
+          <Search />
         </div>
       </div>
     </>
