@@ -7,7 +7,6 @@ import Dropdown from "@/components/Dropdown";
 import data from "@/components/data";
 import Search from "@/components/Search";
 
-
 import Logo from "@public/Logo.svg";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   let altitude;
   //Check Query params
-  
+
   return (
     <>
       <div className="flex flex-col items-center h-screen">
@@ -42,7 +41,7 @@ export default function Home() {
           <div className="flex flex-col items-center "></div>
         </div>
         <div className="flex flex-col items-center w-full h-3/4">
-          <Butt />  
+          <Butt />
           <Dropdown name="Pilih Dusun" data={data.dusun} />
           <Dropdown name="Pilih RW" data={data.RW} />
           <Dropdown name="Pilih RT" data={data.RT} />
