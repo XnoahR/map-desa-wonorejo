@@ -6,6 +6,8 @@ import Butt from "../components/Butt";
 import Dropdown from "@/components/Dropdown";
 import data from "@/components/data";
 import Search from "@/components/Search";
+import { useState } from "react";
+import Dusun from "@/components/Dusun";
 
 import Logo from "@public/Logo.svg";
 
@@ -42,10 +44,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center w-full h-3/4">
           <Butt />
-          <Dropdown name="Pilih Dusun" data={data.dusun} />
-          <Dropdown name="Pilih RW" data={data.RW} />
-          <Dropdown name="Pilih RT" data={data.RT} />
-          <Search />
+          <Dusun />
         </div>
       </div>
     </>

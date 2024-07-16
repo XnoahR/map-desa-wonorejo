@@ -1,6 +1,6 @@
 export default (props) => {
     return (
-      <div className="relative inline-block w-4/5 mt-3">
+      <div className="w-4/5 text-justify ps-5 bg-gray-300 py-3 rounded-md mt-3 font-bold text-lg">
         <select className="w-full appearance-none text-justify ps-5 bg-gray-300 py-3 rounded-md font-thin text-lg pr-10">
           <option value="">{props.name}</option>
             {props.data.map((item, index) => (
