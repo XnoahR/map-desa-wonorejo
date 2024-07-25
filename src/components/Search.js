@@ -5,10 +5,10 @@ export default function MapLink(props) {
 
   return (
     <Link
-      href={`https://www.google.com/maps/dir/?api=1&origin=-7.6245336,110.8876815&destination=${destination}`}
+      href={`https://www.google.com/maps/dir/?api=1&destination=${destination}`}
       passHref
     >
-      <button className="mt-4 w-16 h-8 bg-cyan-700 text-white rounded-md">
+      <button className="mt-4 w-16 h-8 bg-cyan-700 text-white rounded-md mx-auto border border-red-500">
         OK
       </button>
     </Link>

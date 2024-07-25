@@ -1,0 +1,75 @@
+[
+    {
+      "dusun": "Blimbing",
+      "RW": "01",
+      "RT": "01",
+      "destination": "-7.6221348,110.8891758"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "01",
+      "RT": "02",
+      "destination": "-7.6239606,110.8879559"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "02",
+      "RT": "01",
+      "destination": "-7.6239606,110.8879559"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "02",
+      "RT": "02",
+      "destination": "-7.6239606,110.8879559"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "02",
+      "RT": "03",
+      "destination": "-7.6245842,110.8893191"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "03",
+      "RT": "01",
+      "destination": "-7.6245842,110.8893191"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "03",
+      "RT": "02",
+      "destination": "-7.6245842,110.8893191"
+    },
+    {
+      "dusun": "Blimbing",
+      "RW": "03",
+      "RT": "03",
+      "destination": "-7.6245842,110.8893191"
+    },
+    {
+      "dusun": "Krajan Kidul",
+      "RW": "01",
+      "RT": "05",
+      "destination": "56.789,01.234"
+    },
+    {
+      "dusun": "Krajan Kidul",
+      "RW": "01",
+      "RT": "06",
+      "destination": "67.890,12.345"
+    },
+    {
+      "dusun": "Krajan Kidul",
+      "RW": "02",
+      "RT": "07",
+      "destination": "78.901,23.456"
+    },
+    {
+      "dusun": "Krajan Kidul",
+      "RW": "02",
+      "RT": "08",
+      "destination": "89.012,34.567"
+    }
+  ]
+  
